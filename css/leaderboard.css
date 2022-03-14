@@ -1,0 +1,58 @@
+.leadership-box{
+    margin: auto;
+    margin-top: 25;
+    width: 87%; /* sets the width based on screen size*/
+    height: 130px; 
+    display: flex; /* flexbox allows elements to be arranged*/
+    align-items: center; 
+    border-radius: 10px; /* adds a curve to the corner*/
+    
+}
+
+.leaderboard-title{
+    position: relative;
+    top: 105px;
+    margin-left: 90px; 
+    font-size: 30px;
+}
+
+.number-box{
+    width: 80px;
+    height: 110px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center; /* property of flexbox which arranges elements on the main access*/
+    align-items: center; /* property of flexbox which arranges elements on the cross access*/
+    border-radius: 5px;
+    font-size: 36px;
+}
+
+.player-name{ 
+    font-size: 36px; /* sets font size */
+    margin-left: 220px;
+
+}
+
+.score{
+    font-size: 33px;
+    margin-left: 500px; /* creates space of 500px to the left */
+
+}
+
+th{
+    font-size: 22px;
+}
+
+
+tr td {
+    padding: 50px;
+    font-size: 20px;
+    
+}
+
+
+.ranking{
+    position: relative;
+    top: 90px;
+
+}

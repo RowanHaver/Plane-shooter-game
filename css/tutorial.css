@@ -1,0 +1,54 @@
+.page_heading{ 
+    margin-top: 100px; 
+    font-size: 42px;
+
+}
+
+.objective{
+    margin: 5; 
+    font-size: 35px;
+}
+
+.objective_paragraph{
+    margin: 10; 
+    font-size: 30px; 
+    width: 580px;
+}
+
+.display-row{
+    margin-top: 30px; 
+    display: flex;  /* flexbox allows elements to be arranged*/
+    justify-content: center; /* property of flexbox which arranges elements on the main access*/
+    align-items: center; /* property of flexbox which arranges elements on the cross access*/
+    flex-direction: row; /* sets how elements are set in a flexbox container*/
+}
+
+
+
+.display-column{
+    display: flex; 
+    justify-content: center ; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.circle_image{
+    width: 150px; 
+    height: 150px; 
+    background-color: #5792EB;  
+    border-radius: 50%; /* creates a circle*/
+    display: inline-block; 
+    margin: 25px 80px;
+    border: solid 0.5px rgba(171, 171, 171, 0.85);
+    object-fit: cover; /* image scaled to maintain its aspect ratio */
+}
+
+.description_header{
+    font-size: 28px;
+}
+
+.description{
+    margin-top: 20px; 
+    font-size: 28px; 
+    width: 220px;
+}

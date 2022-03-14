@@ -1,0 +1,54 @@
+
+body{
+    margin: 0;
+    font-family: 'Odibee Sans', cursive;
+    height: 100%; 
+    overflow: hidden; /* prevents scroll bar from apearing */
+}
+.navbar-ul{
+    list-style: none; /* removes list */
+    margin: 0;
+    padding: 0;
+    position: fixed; /* stays in the same place*/
+    top: 0;
+    width: 100%;  
+    border-bottom: 2px solid rgba(171, 171, 171, 0.85); /* creates border at bottom of navigation bar */
+}
+
+
+.navbar-title{
+    float: left; /* positions title to the left side */
+    margin: 0;
+    padding: 13px 90px; 
+    font-size: 35px;
+    
+}
+
+li a{
+    display: block; /* element is displayed as a block*/               
+    color: black;
+    padding: 16.5px;
+    padding-right: 50px;
+    text-decoration: none; /* removes underline*/
+    font-size: 30px;
+    float: right; /* positions title to the right side */
+    z-index: -1;
+}
+
+.current{
+    text-decoration: underline 3px solid #5792EB; /* applies underline when current */  
+}
+
+li a:hover:not(.current) {
+    color: #5792EB;
+}
+
+.sign-out-button{
+    top: 0;
+    right: 0;
+    list-style: none;
+    z-index:+1;
+    position: relative;
+    
+}
+

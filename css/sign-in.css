@@ -1,0 +1,84 @@
+.left-side-div{
+    width: 45%; 
+    height: 722px; 
+    background-color: #5792EB; 
+    position: absolute; 
+    left: 0px; 
+    bottom: 0px; 
+    margin: 0px;; 
+    display: flex; 
+    flex-direction: column; /* sets how elements are set in a flexbox container*/
+}
+
+.left-side-image{
+    opacity: 0.1; /* sets opacity of image*/
+}
+
+.input{
+    /* setting the size of the input field*/
+    width: 450px; 
+    height: 25px;
+}
+
+.submit-button{
+    width: 458px; 
+    height: 40px; 
+    background-color: #5792EB; 
+    color: white;
+    margin: 0px;  /* sets a margin from the input field*/
+    font-size: 10px;
+}
+
+.sign-in-right-side{
+    width: 55%; 
+    position: absolute; 
+    right: 0px; 
+    height: 100%; 
+    display: flex; 
+    align-items: center; /* property of flexbox which arranges elements on the cross access*/
+    flex-direction: column; 
+    font-size: 35px; 
+    margin-top: 150px;
+}
+
+.sign-up-right-side{
+    width: 55%; 
+    position: absolute; 
+    right: 0px; 
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    font-size: 32px; 
+    margin-top: 60px;
+}
+
+.account-question-div{
+    width: 260px; 
+    margin: auto; 
+    margin-top: 5px;
+}
+
+.account-question{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+
+p a{
+    color: #5793EB;
+}
+
+.input-label{
+    font-size: 25px;
+    margin: 3px;
+}
+
+.errors{
+    color: red;
+    font-size: 15px;
+}
+
+.result{
+    margin: 5px;
+}
